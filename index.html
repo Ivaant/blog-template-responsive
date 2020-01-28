@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700,900&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="zone black">
+        <nav class="main-menu">
+            <a href="#">
+                <div class="img-logo">
+                </div>
+            </a>
+            <ul>
+                <li><a href="#">Journal</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="zone white container">
+        <main>
+            <article>
+                <header>
+                    <div class="image-card">
+                        <img src="./images/stub-article-image-1-crop.jpeg" alt="persons feet on body of water">
+                        <p>Published by S.Ivanov 28.01.2020</p>
+                    </div>
+                </header>
+                <h1>
+                    Lead
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis neque quo eius iste deleniti eos quam,
+                    nostrum cumque consequatur distinctio vero harum at minima mollitia adipisci quis labore, iure
+                    autem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam accusamus. Hic consectetur
+                    eius fugiat enim repudiandae nam harum magnam eum aspernatur laborum animi ipsa dolore itaque,
+                    doloribus numquam reiciendis.</p>
+                <a class="btn-read-more" href="#">Read more...</a class="btn-read-more">
+            </article>
+            <article>
+                <header>
+                    <div class="image-card">
+                        <img src="./images/stub-article-image-2.jpeg.jpg" alt="persons feet on body of water">
+                        <p>Published by S.Ivanov 28.01.2020</p>
+                    </div>
+
+                </header>
+                <h1>
+                    Lead
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis neque quo eius iste deleniti eos quam,
+                    nostrum cumque consequatur distinctio vero harum at minima mollitia adipisci quis labore, iure
+                    autem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, totam accusamus. Hic consectetur
+                    eius fugiat enim repudiandae nam harum magnam eum aspernatur laborum animi ipsa dolore itaque,
+                    doloribus numquam reiciendis.</p>
+                <a class="btn-read-more" href="#">Read more...</a>
+            </article>
+        </main>
+        <aside>
+            <div class="widget">
+                <h2>Search</h2>
+                <form action="#" method="get">
+                    <input type="search" class="search" placeholder="What are you looking for?">
+                </form>
+            </div>
+            <div class="widget">
+                <h2>Categories</h2>
+                <nav>
+                    <ul class="categories-menu">
+                        <li><a href="#">Weekend</a></li>
+                        <li><a href="#">Nature</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Holiday</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="widget">
+                <h2>Stay Tuned</h2>
+                <form action="#" method="get">
+                    <div class="email-container">
+                        <input type="email" class="email-input" placeholder="Your Email">
+                        <input type="image" src="./images/btn-subscribe.png" class="email-button">
+                    </div>
+
+                </form>
+            </div>
+            <div class="widget">
+                <img src="./images/ad-sidebar.png" alt="advert banner">
+            </div>
+        </aside>
+        <section class="pagination-container">
+            <div><a href="#">&LeftArrow; Previous</a></div>
+            <div><a href="#">Next &RightArrow;</a></div>
+        </section>
+    </section>
+    <footer class="zone black footer">
+        <div class="img-logo">
+        </div>
+        <p>&copy;
+            <span id="year"></span>
+            <span>Sergiy Ivanov</span>
+        </p>
+        <p>CSS Grid</p>
+    </footer>
+    <script>
+        const yearElem = document.getElementById("year");
+        year.textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
